@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .advanced .title {
@@ -23,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 300px;
     width: 70vw;
     gap: 30px;
 }
