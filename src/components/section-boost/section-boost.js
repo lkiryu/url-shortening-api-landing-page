@@ -1,5 +1,7 @@
 import React from "react";
 
+import './section-boost.css'
+
 const SectionBoost = () => {
     return(
         <section className="boost">
