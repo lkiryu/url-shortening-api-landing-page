@@ -3,9 +3,11 @@ import brandRecognition from "../../images/icon-brand-recognition.svg"
 import detailedRecords from "../../images/icon-detailed-records.svg"
 import fullyCustomizable from "../../images/icon-fully-customizable.svg"
 
+import './section-advanced.css'
+
 const SectionAdvanced = () => {
     return (
-        <section className="Advanced">
+        <section className="advanced">
             <h2 className="title">Advanced Statistics</h2>
             <p className="description">Track how your links are performing across the web with our
                 advanced statistics dashboard.</p>
