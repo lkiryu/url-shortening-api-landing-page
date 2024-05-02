@@ -1,0 +1,40 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin-bottom: 80px;
+}
+
+.hero .title{
+    font-size: 70px;
+    color: hsl(255, 11%, 22%);
+    line-height: 75px;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.hero .description{
+    color: hsl(257, 7%, 63%);
+    font-size: 20px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.hero a{
+    padding: 15px 45px;
+    background-color: hsl(180, 66%, 49%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.3s ease-in;
+}
+
+.hero a:hover{
+    opacity: 70%;
+}
+
+.hero img{
+    width: 650px;
+}

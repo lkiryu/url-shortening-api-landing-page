@@ -1,6 +1,8 @@
 import React from "react";
 import illustrationWorking from '../../images/illustration-working.svg'
 
+import './hero.css'
+
 const SectionHero = () => {
     return (
         <section className="hero">
