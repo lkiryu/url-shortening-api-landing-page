@@ -1,0 +1,77 @@
+.shortening {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: hsl(257, 27%, 26%);
+    background-image: url(../../images/bg-shorten-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70vw;
+    margin-bottom: 80px;
+}
+
+.shortening-inputs {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.url,
+.submit {
+    border: none;
+    height: 70px;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.url {
+    font-family: "Poppins", sans-serif;
+    width: 600px;
+    font-size: 24px;
+    border: 3px solid hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+.url,
+.url::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+
+.url:focus {
+    outline: none;
+}
+
+.url.error {
+    border: 3px solid hsl(0, 87%, 67%);
+}
+
+.url.error,
+.url.error::placeholder {
+    color: hsla(0, 87%, 67%, 70%);
+}
+
+.input-error{
+    font-style: italic;
+    color: hsl(0, 87%, 67%);
+}
+
+.input-error.none{
+    display: none;
+}
+
+.submit{
+    background-color: hsl(180, 66%, 49%);
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.submit:hover{
+    background-color: hsl(180, 66%, 70%);
+}
