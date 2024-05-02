@@ -1,6 +1,8 @@
 import React from "react";
 import logoLight from "../../images/logo-light.svg"
 
+import './footer.css'
+
 const Footer = () => {
     return (
         <footer className="footer">

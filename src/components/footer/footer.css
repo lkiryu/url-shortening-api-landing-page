@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(260, 8%, 14%);
+}
+
+.footer-content {
+    display: flex;
+    margin: 60px 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70vw;
+}
+
+.footer .links .title {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+.footer .links li {
+    color: hsl(257, 7%, 63%);
+    margin-bottom: 10px;
+}
+
+.footer .links a {
+    transition: 0.3s ease-in;
+}
+
+.footer .social {
+    display: flex;
+    gap: 30px;
+}
+
+.footer .social a {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    transition: 0.3s ease-in;
+}
+
+.footer .links a:hover,
+.footer .social a:hover {
+    color: hsl(180, 66%, 49%);
+}
