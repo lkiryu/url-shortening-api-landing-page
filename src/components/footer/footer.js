@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-content">
-                <a href="/">
+                <a href="/" className="logo">
                     <img src={logoLight} alt="logo"></img>
                 </a>
 

@@ -30,3 +30,21 @@ body {
     background: rgb(240, 241, 246);
     background: linear-gradient(0deg, rgba(240, 241, 246, 1) 66%, rgba(255, 255, 255, 1) 34%);
 }
+
+@media(max-width:1200px){
+    .container {
+        background: linear-gradient(0deg, rgba(240, 241, 246, 1) 71%, rgba(255, 255, 255, 1) 29%);
+    }
+}
+
+@media(max-width:800px){
+    .container {
+        background: linear-gradient(0deg, rgba(240, 241, 246, 1) 72%, rgba(255, 255, 255, 1) 28%);
+    }
+}
+
+@media(max-width:500px){
+    .container {
+        background: linear-gradient(0deg, rgba(240, 241, 246, 1) 74%, rgba(255, 255, 255, 1) 26%);
+    }
+}

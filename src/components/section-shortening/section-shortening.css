@@ -54,16 +54,16 @@
     color: hsla(0, 87%, 67%, 70%);
 }
 
-.input-error{
+.input-error {
     font-style: italic;
     color: hsl(0, 87%, 67%);
 }
 
-.input-error.none{
+.input-error.none {
     display: none;
 }
 
-.submit{
+.submit {
     background-color: hsl(180, 66%, 49%);
     color: hsl(0, 0%, 100%);
     font-size: 20px;
@@ -72,6 +72,46 @@
     transition: 0.3s ease-in;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: hsl(180, 66%, 70%);
+}
+
+@media(max-width:1440px) {
+    .shortening {
+        width: 80vw;
+    }
+}
+
+@media(max-width:1200px) {
+    .shortening {
+        width: 90vw;
+    }
+}
+
+@media(max-width:800px) {
+    .shortening {
+        background-image: url(../../images/bg-shorten-mobile.svg);
+        background-size: contain;
+        background-position: 100% 0;
+    }
+
+    .shortening-inputs {
+        flex-direction: column;
+    }
+
+    .url,
+    .submit {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .url,
+    .submit {
+        padding: 20px 10px;
+    }
+
+    .url {
+        font-size: 16px;
+    }
 }

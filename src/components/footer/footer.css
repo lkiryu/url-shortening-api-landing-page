@@ -43,3 +43,40 @@
 .footer .social a:hover {
     color: hsl(180, 66%, 49%);
 }
+
+@media(max-width:1200px){
+    .footer-content {
+        width: 90vw;
+    }
+
+    .footer .social {
+        gap: 20px;
+    }
+}
+
+@media(max-width:800px){
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .logo{
+        margin-bottom: 20px;
+    }
+
+    .footer .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .footer .links ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
